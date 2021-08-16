@@ -44,7 +44,7 @@ print("To decrypt it, we just need to put our received encrypted message to the 
 
 decryptedMessage = (encryptedMessage ^^ RSA_D) % RSA_N
 
-print("Here we go ! Our message was :", encryptedMessage)
+print("Here we go ! Our message was :", decryptedMessage)
 
 print("This is the end ! Hope you liked it. Thanks for trying it ! You can find more infos on why I did this project on the next and last page.")
 
